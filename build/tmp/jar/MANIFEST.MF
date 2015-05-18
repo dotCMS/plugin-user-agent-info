@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: com.dotcms.osgi.useragent;version="0.1";uses:="com.dot
+ cms.repackage.org.osgi.framework,com.dotmarketing.osgi",com.dotcms.os
+ gi.useragent.viewtool;version="0.1";uses:="eu.bitwalker.useragentutil
+ s,org.apache.velocity.tools.view.servlet,org.apache.velocity.tools.vi
+ ew.tools",eu.bitwalker.useragentutils;version="0.1"
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: UserAgent Viewtool
+Created-By: 1.7.0_45 (Oracle Corporation)
+DynamicImport-Package: *
+Bundle-Vendor: dotcms
+Bundle-Version: 0.1
+Bnd-LastModified: 1431973593000
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.dotcms.osgi.useragent.Activator
+Bundle-Description: dotCMS - UserAgent Viewtool
+Bundle-SymbolicName: plugin-user-agent-info
+Import-Package: com.dotcms.repackage.org.osgi.framework;version=0,com.
+ dotmarketing.osgi;version=0,com.dotmarketing.util;version=0,javax.ser
+ vlet.http;version=0,org.apache.velocity.tools.view;version=0,org.apac
+ he.velocity.tools.view.context;version=0,org.apache.velocity.tools.vi
+ ew.servlet;version=0,org.apache.velocity.tools.view.tools;version=0
+Bundle-DocURL: http://www.dotcms.com
+
