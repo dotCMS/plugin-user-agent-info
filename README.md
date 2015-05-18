@@ -18,6 +18,7 @@ type: $useragent.type
 engine: $useragent.engine
 ```
 
+---
 
 The $useragent.type returns one of the following Strings that you can use to check against:
 * COMPUTER
@@ -28,7 +29,7 @@ The $useragent.type returns one of the following Strings that you can use to che
 * DMR (Digital media receiver like the Google TV)
 * UNKNOWN
 
-
+---
 The $useragent.browser returns one of the following Strings that you can use to check against:
 ## Apple
 * APPLE_ITUNES 
