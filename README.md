@@ -19,7 +19,11 @@ engine: $useragent.engine
 ```
 
 
-The $useragent.type returns one of the following Strings that you can use to check against.
-
-The return values can be 
-COMPUTER, MOBILE, TABLET, GAME_CONSOLE, WEARABLE, DMR (Digital media receiver like the Google TV), or UNKNOWN
+The $useragent.type returns one of the following Strings that you can use to check against:
+* COMPUTER
+* MOBILE
+* TABLET
+* GAME_CONSOLE
+* WEARABLE
+* DMR (Digital media receiver like the Google TV)
+* UNKNOWN
