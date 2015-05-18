@@ -20,23 +20,6 @@ engine: $useragent.engine
 
 
 The $useragent.type returns one of the following Strings that you can use to check against.
-//Standard desktop or laptop computer
-COMPUTER
 
-//Mobile phone or similar small mobile device
-MOBILE
-
-// Small tablet type computer.
-TABLET
-
-//Game console like the Wii or Playstation.
-GAME_CONSOLE
-
-//Digital media receiver like the Google TV.
-DMR
-
-//Miniature device like a smart watch or interactive glasses
-WEARABLE
-
-//Other or unknow type of device.
-UNKNOWN
+The return values can be 
+COMPUTER, MOBILE, TABLET, GAME_CONSOLE, WEARABLE, DMR (Digital media receiver like the Google TV), or UNKNOWN
