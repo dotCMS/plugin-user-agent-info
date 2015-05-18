@@ -10,17 +10,17 @@ http://www.bitwalker.eu/software/user-agent-utils
 viewtool: $useragent
 
 agent: $useragent.agent
+type: $useragent.type
 browser: $useragent.browser
 version: $useragent.version
 os: $useragent.os
 manufacturer: $useragent.manufacturer
-type: $useragent.type
 engine: $useragent.engine
 ```
 
 ---
-
-The $useragent.type returns one of the following Strings that you can use to check against:
+# Types
+The `$useragent.type` returns one of the following Strings that you can use to check against:
 * COMPUTER
 * MOBILE
 * TABLET
@@ -30,11 +30,11 @@ The $useragent.type returns one of the following Strings that you can use to che
 * UNKNOWN
 
 ---
-The $useragent.browser returns one of the following Strings that you can use to check against:
-## Apple
+# Browsers
+The `$useragent.browser` returns one of the following Strings that you can use to check against:
+### Apple
 * APPLE_ITUNES 
-* APPLE_MAIL
-* Deprecated. 
+* APPLE_MAIL- Deprecated. 
 * APPLE_WEB_KIT 
 * BLACKBERRY10 
 * BOT 
@@ -43,7 +43,7 @@ The $useragent.browser returns one of the following Strings that you can use to 
 * CAMINO2 
 * CFNETWORK 
 
-## Google Chrome browser
+### Google Chrome browser
 * CHROME
 * CHROME_MOBILE 
 * CHROME10 
@@ -77,7 +77,7 @@ The $useragent.browser returns one of the following Strings that you can use to 
 * EUDORA 
 * EVOLUTION 
 
-## Firefox
+### Firefox
 * FIREFOX 
 * FIREFOX_MOBILE 
 * FIREFOX_MOBILE23 
@@ -114,7 +114,7 @@ The $useragent.browser returns one of the following Strings that you can use to 
 * FIREFOX9 
 * FLOCK 
 
-## Internet Explorer browsers
+### Internet Explorer browsers
 * IE
 * IE10 
 * IE11 
@@ -125,13 +125,12 @@ The $useragent.browser returns one of the following Strings that you can use to 
 * IE8 
 * IE9 
 * IEMOBILE10 
-* IEMOBILE11
-Since 2007 the mobile edition of Internet Explorer identifies itself as IEMobile in the user-agent.
+* IEMOBILE11 - Since 2007 the mobile edition of Internet Explorer identifies itself as IEMobile in the user-agent.
 * IEMOBILE6 
 * IEMOBILE7 
 * IEMOBILE9 
 
-## Other
+### Other
 * KONQUEROR 
 * LOTUS_NOTES 
 * LYNX 
@@ -151,13 +150,13 @@ Since 2007 the mobile edition of Internet Explorer identifies itself as IEMobile
 * OPERA19 
 * OPERA20 
 * OPERA9 
+
+### Outlook email client
 * OUTLOOK
-* Outlook email client
-* OUTLOOK_EXPRESS7
-Since version 7 Outlook Express is identifying itself.
-* OUTLOOK2007
+* OUTLOOK_EXPRESS7 - Since version 7 Outlook Express is identifying itself.
+* OUTLOOK2007 - 
 Microsoft Outlook 2007 identifies itself as MSIE7 but uses the html rendering engine of Word 2007.
-* OUTLOOK2010
+* OUTLOOK2010 - 
 Outlook 2010 is still using the rendering engine of Word.
 * OUTLOOK2013 
 * POCOMAIL 
