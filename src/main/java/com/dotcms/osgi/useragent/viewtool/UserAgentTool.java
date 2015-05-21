@@ -21,19 +21,19 @@ public class UserAgentTool implements ViewTool {
 		}
 	}
 
-	public UserAgent get() {
+
+
+	public UserAgent getAgent() {
 
 		return userAgent;
 
 	}
 
-	public UserAgent getAgent() {
+	public UserAgent getUserAgent() {
 
-		return get();
+		return userAgent;
 
 	}
-
-
 
 	public Browser getBrowser() {
 		try {
